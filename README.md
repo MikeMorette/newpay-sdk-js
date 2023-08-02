@@ -3,8 +3,8 @@
 
 ##### ✅ Установка через [NPM](https://www.npmjs.com/package/@newpay/sdk-js)
 ##### ✅ Установка подключением через [script](https://github.com/MikeMorette/newpay-sdk-js/blob/main/build/main-bundle.js)
-##### ✅  [Виджет](https://github.com/MikeMorette/newpay-sdk-js/blob/a476f6f0a7aa558cc88a2241c5c2ec0530de3dcb/build/main-bundle.js#L173) для мобильных устройств
-##### ✅  [Виджет](https://github.com/MikeMorette/newpay-sdk-js/blob/a476f6f0a7aa558cc88a2241c5c2ec0530de3dcb/build/main-bundle.js#L166) для ПК
+##### ✅  [Виджет](https://github.com/MikeMorette/newpay-sdk-js/blob/8eee52d4964162c9c4c36820b29fbbe5ecda5f99/build/main-bundle.js#L265) для мобильных устройств
+##### ✅  [Виджет](https://github.com/MikeMorette/newpay-sdk-js/blob/8eee52d4964162c9c4c36820b29fbbe5ecda5f99/build/main-bundle.js#L193) для ПК
 #
 #
 ## Установка и использование
