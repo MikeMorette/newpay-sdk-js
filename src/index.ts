@@ -78,7 +78,7 @@ class SlideUpWidget {
       height: 320,
       type: "svg",
       data: url,
-      image: "https://plumbum.shop/assets/images/newpay/logo_min_b.svg",
+      //image: "https://plumbum.shop/assets/images/newpay/logo_min_b.svg",
       dotsOptions: {
         color: "#000",
         type: "rounded"
@@ -118,8 +118,8 @@ class SlideUpWidget {
     dialog_title.className = "newpay_title"
     body_content.className = "newpay_body__content"
     nbc_logos.className = "nbc_logos"
-    nbc_logos_a.src = "https://plumbum.shop/assets/images/newpay/logo_b.png"
-    nbc_logos_b.src = "https://plumbum.shop/assets/images/newpay/sbp_b.png"
+    //nbc_logos_a.src = "https://plumbum.shop/assets/images/newpay/logo_b.png"
+    nbc_logos_b.src = "https://sbp.nspk.ru/i/logo-black.svg"
 
     nbc_qr.className = "nbc_qr"
     qr_canvas.id = "qr_canvas"
