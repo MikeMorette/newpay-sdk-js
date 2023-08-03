@@ -142,6 +142,7 @@ class SlideUpWidget {
 
     widgetDiv.appendChild(close)
     widgetDiv.appendChild(dialog)
+    document.body.appendChild(widgetDiv)
 
     await new Promise((resolve, reject) => {
       setTimeout(() => {

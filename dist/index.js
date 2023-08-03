@@ -173,6 +173,7 @@ var SlideUpWidget = /** @class */ (function () {
                         });
                         widgetDiv.appendChild(close);
                         widgetDiv.appendChild(dialog);
+                        document.body.appendChild(widgetDiv);
                         return [4 /*yield*/, new Promise(function (resolve, reject) {
                                 setTimeout(function () {
                                     var wrapper = document.getElementById("qr_canvas");
