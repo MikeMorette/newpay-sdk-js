@@ -16,5 +16,15 @@ npm i @newpay/sdk-js
 
 ```js
 import SlideUpWidget from "@newpay/sdk-js";
+
 const widget = new SlideUpWidget();
+
+// На мобильном устройстве
+if (widget.isMobileCheck()) {
+  widget.showBankSelector("https://qr.nspk.ru/AD10006C35FBF1GA9IUAGIF6JCU23NVE?type=02&bank=100000000061&sum=2200&cur=RUB&crc=04A3");
+} else {
+  // На ПК
+  widget.showQRCode("https://online.tester.newpay.pro/?sale_token=111121");
+}
+
 ```

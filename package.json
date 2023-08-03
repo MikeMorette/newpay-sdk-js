@@ -1,6 +1,6 @@
 {
   "name": "@newpay/sdk-js",
-  "version": "1.0.5",
+  "version": "1.0.15",
   "description": "JS SDK for NewPay connection",
   "main": "dist/index.js",
   "scripts": {

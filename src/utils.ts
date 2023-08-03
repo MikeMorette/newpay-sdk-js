@@ -6,6 +6,14 @@ export function getProvider(url: string) {
   return -1 === url.indexOf("sub.nspk.ru") ? "qr" : "sub"
 }
 
+export function isPC(url: string) {
+  if (!/https:\/\/online.tester.newpay.pro\/(\?)?/.test(url)) {
+    return false;
+  }
+
+  return true;
+}
+
 export function getDboLink(e: any, t: string, n: any) {
   let i = t.replace("https://", `${e.schema}://`);
   const r = e.isWebClientActive && (!0 === e.isWebClientActive || "true" === e.isWebClientActive);
